@@ -4,7 +4,7 @@ import { Plus } from 'lucide-react';
 const faqs = [
   {
     question: "Ist das E-Book für Häkelanfänger geeignet?",
-    answer: "Absolument! Das E-Book wurde so konzipiert, dass es leicht verständlich ist, mit Schritt-für-Schritt-Erklärungen, klaren Diagrammen und vielen Tipps. Selbst wenn Sie ganz neu bei Amigurumi sind, können Sie folgen und großartige Produkte herstellen."
+    answer: "Absolut! Das E-Book wurde so konzipiert, dass es leicht verständlich ist, mit Schritt-für-Schritt-Erklärungen, klaren Diagrammen und vielen Tipps. Selbst wenn Sie ganz neu bei Amigurumi sind, können Sie folgen und grossartige Produkte herstellen."
   },
   {
     question: "Wie viele Modelle von Hausschuhen und Babyschuhen sind enthalten?",
@@ -39,7 +39,7 @@ export default function FAQ() {
     <section className="py-20 px-5 bg-white">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-[32px] font-bold text-cinza-dark text-center mb-12">
-          Häufig gestellte Fragen
+          Häufig gestellete Fragen
         </h2>
 
         <div className="space-y-4">

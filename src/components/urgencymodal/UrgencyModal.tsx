@@ -55,7 +55,7 @@ export default function UrgencyModal() {
         <button
           onClick={handleClose}
           className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition-colors"
-          aria-label="Schließen"
+          aria-label="Schliessen"
         >
           <X className="w-8 h-8" />
         </button>
