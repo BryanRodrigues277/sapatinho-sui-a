@@ -3,28 +3,28 @@ import { Plus } from 'lucide-react';
 
 const faqs = [
   {
-    question: 'A apostila é indicada para iniciantes no crochê?',
-    answer: 'Com certeza! A apostila foi feita para ser fácil de entender, com explicações passo a passo, gráficos claros e várias dicas. Mesmo que você esteja começando do zero no amigurumi, vai conseguir acompanhar e criar peças incríveis.'
+    question: 'E-kitap tığ işine yeni başlayanlar için uygun mu?',
+    answer: 'Kesinlikle! E-kitap; adım adım açıklamalar, açık şemalar ve pek çok ipucuyla kolay anlaşılır şekilde hazırlandı. Amigurumiye sıfırdan başlıyor olsunuz bile takıp edebilir ve harika ürünler yapabilirsiniz.'
   },
   {
-    question: 'Quantos modelos de pantufas e sapatinhos estão incluídos?',
-    answer: 'Você vai receber um total de 16 receitas completas: modelos para adultos, crianças e unissex. Tudo isso acompanhado de gráficos claros e dicas detalhadas.'
+    question: 'Kaç patik ve bebek ayakkabısı modeli dahil edilmiştir?',
+    answer: 'Toplam 16 eksiksiz tarif alacaksınız: yetişkin, çocuk ve uniseks modeller. Tüm bunlar açık şemalar ve detaylı ipucuçlarıyla birlikte gelir.'
   },
   {
-    question: 'Existe algum suporte para tirar dúvidas?',
-    answer: 'Sim. De segunda a sexta de 09:00 as 18:00 horas, exceto feriados.'
+    question: 'Soru sormak için herhangi bir destek var mı?',
+    answer: 'Evet. Pazartesi-Cuma 09:00-18:00 saatleri arasında, resmi tatiller hariç.'
   },
   {
-    question: 'É seguro comprar neste site?',
-    answer: 'Sim, sua compra estará 100% segura. Utilizamos protocolo https em parceria com o Mercado Pago, empresa de pagamentos online mais segura do Brasil.'
+    question: 'Bu siteden alışveriş yapmak güvenli mi?',
+    answer: 'Evet, alışverişiniz %100 güvende olacaktır. Güvenli ödeme işemcimiz aracılığıyla https protokolü kullanıyoruz.'
   },
   {
-    question: 'O Acesso é vitalício?',
-    answer: 'Sim o pagamento é único e o acesso a apostila é vitalício!'
+    question: 'Erişim ömrüm boyunca devam eder mi?',
+    answer: 'Evet, ödeme tek seferlik yapılır ve e-kitaba erişim ömrümüz boyu devam eder!'
   },
   {
-    question: 'Por que custa tão pouco? Isso é real?',
-    answer: 'Sim, o valor promocional de R$ 27 é para tornar o kit acessível ao maior número de pessoas possível. Mas atenção: essa é uma oferta limitada e pode acabar a qualquer momento.'
+    question: 'Neden bu kadar ucuz? Bu gerçek mi?',
+    answer: 'Evet, promosyon fiyatı kitabı mümkün olduğunca fazla kişiye ulaştırmak için belirlenmiştir. Ancak dikkat: bu sınırlı bir tekliftir ve her an sona erebilir.'
   }
 ];
 
@@ -39,7 +39,7 @@ export default function FAQ() {
     <section className="py-20 px-5 bg-white">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-[32px] font-bold text-cinza-dark text-center mb-12">
-          Dúvidas Frequentes
+          Sıkça Sorulan Sorular
         </h2>
 
         <div className="space-y-4">

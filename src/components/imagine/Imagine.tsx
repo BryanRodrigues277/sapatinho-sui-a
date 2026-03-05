@@ -6,51 +6,51 @@ export default function Imagine() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#333333]">
-            Toque macio, cores que aquecem, modelos que encantam.
+            Yumuşak dokunuş, ısıtan renkler, büyüleyen modeller.
           </h2>
 
           <p className="text-lg text-[#666666] mb-4 leading-relaxed max-w-3xl mx-auto">
-            Imagine criar um tapete de urso fofinho para o quarto do seu bebê, ou um leãozinho corajoso que deixa qualquer criança encantada. Cada tapete é uma obra de arte funcional que traz charme e aconchego para qualquer ambiente!
+            Bebeğinizin odası için sevimli bir ayı patik hayal edin ya da her çocuğu büyüleyen cesur bir aslan. Her model, her ortama şıklık ve sıcaklık katan işlevsel bir sanat eseridir!
           </p>
 
           <p className="text-lg text-[#666666] mb-8 leading-relaxed max-w-3xl mx-auto">
-            Isso é o que você vai aprender com a <strong className="text-[#2E7D32]">Apostila Tapetes Amigurumi!</strong>
+            <strong className="text-[#2E7D32]">Amigurumi Patik E-Kitabıyla</strong> öğrenecekleriniz bunlar!
           </p>
 
           <div className="mb-8">
             <img
               src="https://i.postimg.cc/XYrsSsx0/DPpp2-790x1024.webp"
-              alt="Tapete Amigurumi"
+              alt="Amigurumi Patik"
               loading="lazy"
               className="w-full max-w-md mx-auto rounded-xl shadow-lg"
             />
           </div>
 
           <h3 className="text-2xl md:text-3xl font-bold mb-6 text-[#333333]">
-            Com receitas exclusivas, você vai poder criar tapetes incríveis, como:
+            Özel tariflerle şu harika patikleri yapabileceksiniz:
           </h3>
 
           <div className="max-w-2xl mx-auto">
             <ul className="space-y-3 text-left">
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-[#2E7D32] flex-shrink-0 mt-0.5" strokeWidth={3} />
-                <span className="text-lg text-[#666666]">Urso fofinho perfeito para quartos infantis</span>
+                <span className="text-lg text-[#666666]">Bebek odaları için mükemmel sevimli ayı patik</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-[#2E7D32] flex-shrink-0 mt-0.5" strokeWidth={3} />
-                <span className="text-lg text-[#666666]">Leão majestoso que encanta crianças</span>
+                <span className="text-lg text-[#666666]">Çocukları büyüleyen görkemli aslan</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-[#2E7D32] flex-shrink-0 mt-0.5" strokeWidth={3} />
-                <span className="text-lg text-[#666666]">Gato charmoso para decoração</span>
+                <span className="text-lg text-[#666666]">Dekorasyon için şık kedi</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-[#2E7D32] flex-shrink-0 mt-0.5" strokeWidth={3} />
-                <span className="text-lg text-[#666666]">Cachorro carinhoso que todos amam</span>
+                <span className="text-lg text-[#666666]">Herkesin sevdiği sevgi dolu köpek</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-[#2E7D32] flex-shrink-0 mt-0.5" strokeWidth={3} />
-                <span className="text-lg text-[#666666]">E muitos outros modelos de animais (tem algumas surpresas esperando por você!)</span>
+                <span className="text-lg text-[#666666]">Ve daha pek çok hayvan modeli (sizi bekleyen sürprizler var!)</span>
               </li>
             </ul>
           </div>

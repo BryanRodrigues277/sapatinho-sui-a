@@ -3,33 +3,33 @@ import { memo } from 'react';
 const benefits = [
   {
     emoji: '📚',
-    title: 'Mais de 100 Moldes Exclusivos',
-    description: 'Coleção completa de amigurumis temáticos de pantufas e sapatinhos com instruções detalhadas'
+    title: "100'den Fazla Özel Model",
+    description: 'Patik ve bebek ayakkabısı temalı amigurumilerin detaylı anlatımlı eksiksiz koleksiyonu'
   },
   {
     emoji: '⚡',
-    title: 'Acesso Imediato e Vitalício',
-    description: 'Receba tudo no seu e-mail em segundos e tenha acesso para sempre, sem mensalidades'
+    title: 'Anında ve Ömür Boyu Erişim',
+    description: 'Her şeyi saniyeler içinde e-postanıza alın ve aylık ücret ödemeden sonsuza dek erişin'
   },
   {
     emoji: '📖',
-    title: 'Passo a Passo Ilustrado',
-    description: 'Cada molde vem com fotos e explicações claras, perfeito para iniciantes e avançadas'
+    title: 'Resimli Adım Adım Anlatım',
+    description: 'Her model fotoğraf ve açık açıklamalarla gelir, hem yeni başlayanlar hem de ileri seviye için mükemmel'
   },
   {
     emoji: '💰',
-    title: 'Gere Renda Extra',
-    description: 'Venda suas peças prontas ou aceite encomendas personalizadas e lucre com seu talento'
+    title: 'Ek Gelir Elde Edin',
+    description: 'Bitirdiğiniz ürünleri satın veya özel siparişler kabul edin ve yeteneğinizden kazanç sağlayın'
   },
   {
     emoji: '📈',
-    title: 'Tendência em Alta',
-    description: 'Sapatinhos e pantufas amigurumi são sucesso nas redes sociais e vendem muito bem online'
+    title: 'Yükselen Trend',
+    description: 'Amigurumi patikler ve bebek ayakkabıları sosyal medyada büyük başarı yakalıyor ve çevrimiçi çok satıyor'
   },
   {
     emoji: '🤝',
-    title: 'Suporte e Comunidade',
-    description: 'Entre para grupo exclusivo de artesãs e receba dicas, inspirações e ajuda sempre que precisar'
+    title: 'Destek ve Topluluk',
+    description: 'El sanatları ustaları için özel gruba katılın ve her ihtiyacınızda ipuçları, ilham ve yardım alın'
   }
 ];
 
@@ -38,11 +38,11 @@ function Benefits() {
     <section className="py-20 px-5 bg-white">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-[32px] font-bold text-cinza-dark text-center mb-6">
-          Por que a "Apostila Amigurumi Pantufas & Sapatinhos" é tudo que você precisa?
+          Neden "Amigurumi Patik & Bebek Ayakkabısı E-Kitabı" ihtiyacınız olan tek şey?
         </h2>
 
         <p className="text-lg text-cinza-medium text-center mb-12 max-w-3xl mx-auto">
-          Tudo que você precisa para dominar a arte do amigurumi e transformar seu hobby em negócio
+          Amigurumi sanatında ustalaşmak ve hobinizi işe dönüştürmek için ihtiyacınız olan her şey
         </p>
 
         <div className="grid md:grid-cols-3 gap-8">
