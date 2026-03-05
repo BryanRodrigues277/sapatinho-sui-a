@@ -1,15 +1,15 @@
 const securityFeatures = [
   {
     image: 'https://i.postimg.cc/C1Yqs4Kj/plataforma-png.webp',
-    text: 'Plateforme de paiement approuvée et certifiée.'
+    text: 'Zugelassene und zertifizierte Zahlungsplattform.'
   },
   {
     image: 'https://i.postimg.cc/43pcc0Xx/dados-png.webp',
-    text: 'Vos données financières resteront totalement confidentielles et protégées.'
+    text: 'Ihre Finanzdaten bleiben vollständig vertraulich und geschützt.'
   },
   {
     image: 'https://i.postimg.cc/hGVmmYKx/entrega-p-png.webp',
-    text: 'Votre accès sera livré via E-mail et Whatsapp.'
+    text: 'Ihr Zugang wird per E-Mail und WhatsApp zugestellt.'
   }
 ];
 
@@ -27,7 +27,7 @@ export default function Security() {
               />
               <p className="text-sm text-cinza-medium leading-relaxed">
                 {feature.text.split(' ').map((word, idx) => {
-                  const boldWords = ['approuvée', 'certifiée', 'confidentielles', 'protégées', 'livré'];
+                  const boldWords = ['zugelastene', 'zertifizierte', 'vertraulich', 'geschützt', 'zugestellt'];
                   if (boldWords.some(bw => word.toLowerCase().includes(bw))) {
                     return (
                       <strong key={idx} className="font-semibold text-cinza-dark">

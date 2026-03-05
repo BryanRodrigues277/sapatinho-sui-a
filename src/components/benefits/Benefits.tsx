@@ -3,33 +3,33 @@ import { memo } from 'react';
 const benefits = [
   {
     emoji: '📚',
-    title: "Plus de 100 Modèles Exclusifs",
-    description: 'Collection complète de modèles amigurumi sur le thème des chaussons et chaussures de bébé avec des explications détaillées.'
+    title: "Über 100 exklusive Modelle",
+    description: 'Vollständige Sammlung von Amigurumi-Anleitungen für Hausschuhe und Babyschuhe mit detaillierten Erklärungen.'
   },
   {
     emoji: '⚡',
-    title: 'Accès Immédiat et à Vie',
-    description: 'Recevez tout par e-mail en quelques secondes et accédez-y pour toujours sans frais mensuels.'
+    title: 'Sofortiger lebenslanger Zugriff',
+    description: 'Erhalten Sie alles innerhalb von Sekunden per E-Mail und greifen Sie für immer darauf zu – ohne monatliche Gebühren.'
   },
   {
     emoji: '📖',
-    title: 'Pas à Pas Illustré',
-    description: 'Chaque modèle est accompagné de photos et d\'explications claires, idéales tant pour les débutants que pour les confirmés.'
+    title: 'Illustrierte Schritt-für-Schritt-Anleitungen',
+    description: 'Jedes Modell wird mit Fotos und klaren Erklärungen geliefert, ideal sowohl für Anfänger als auch für Fortgeschrittene.'
   },
   {
     emoji: '💰',
-    title: 'Générez un Revenu Supplémentaire',
-    description: 'Vendez vos produits finis ou acceptez des commandes personnalisées e rentabilisez votre talent.'
+    title: 'Zusätzliches Einkommen generieren',
+    description: 'Verkaufen Sie Ihre fertigen Produkte oder nehmen Sie individuelle Bestellungen an und machen Sie Ihr Talent zu Geld.'
   },
   {
     emoji: '📈',
-    title: 'Tendance en Hausse',
-    description: 'Les chaussons et chaussures amigurumi connaissent un grand succès sur les réseaux sociaux et se vendent très bien en ligne.'
+    title: 'Wachsender Trend',
+    description: 'Amigurumi-Hausschuhe und Babyschuhe sind in den sozialen Medien ein großer Erfolg und verkaufen sich online sehr gut.'
   },
   {
     emoji: '🤝',
-    title: 'Support et Communauté',
-    description: 'Rejoignez le groupe exclusif d\'artisans et recevez des conseils, de l\'inspiration et de l\'aide dès que vous en avez besoin.'
+    title: 'Support und Community',
+    description: 'Treten Sie der exklusiven Gruppe von Kunsthandwerkern bei und erhalten Sie Tipps, Inspiration und Hilfe, wann immer Sie diese benötigen.'
   }
 ];
 
@@ -38,11 +38,11 @@ function Benefits() {
     <section className="py-20 px-5 bg-white">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-[32px] font-bold text-cinza-dark text-center mb-6">
-          Pourquoi l'e-book "Chaussons & Chaussures Bébé Amigurumi" est-il tout ce dont vous avez besoin ?
+          Warum ist das E-Book „Amigurumi-Hausschuhe & Babyschuhe“ genau das Richtige für Sie?
         </h2>
 
         <p className="text-lg text-cinza-medium text-center mb-12 max-w-3xl mx-auto">
-          Tout ce dont vous avez besoin pour maîtriser l'art de l'amigurumi et transformer votre hobby en entreprise.
+          Alles, was Sie brauchen, um die Kunst des Amigurumi zu meistern und Ihr Hobby in ein Geschäft zu verwandeln.
         </p>
 
         <div className="grid md:grid-cols-3 gap-8">

@@ -99,7 +99,7 @@ export default function PurchaseNotification() {
           <p className="text-sm font-semibold text-gray-900 truncate">
             {names[currentIndex]}
           </p>
-          <p className="text-xs text-gray-600">vient d'acheter</p>
+          <p className="text-xs text-gray-600">hat gerade gekauft</p>
         </div>
       </div>
     </div>

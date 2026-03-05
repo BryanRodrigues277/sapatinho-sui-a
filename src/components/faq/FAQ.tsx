@@ -3,28 +3,28 @@ import { Plus } from 'lucide-react';
 
 const faqs = [
   {
-    question: "L'e-book convient-il aux débutants en crochet ?",
-    answer: "Absolument ! L'e-book a été conçu pour être facile à comprendre, avec des explications étape par étape, des diagrammes clairs et de nombreuses astuces. Même si vous debutez l'amigurumi de zéro, vous pouvez suivre et créer de superbes produits."
+    question: "Ist das E-Book für Häkelanfänger geeignet?",
+    answer: "Absolument! Das E-Book wurde so konzipiert, dass es leicht verständlich ist, mit Schritt-für-Schritt-Erklärungen, klaren Diagrammen und vielen Tipps. Selbst wenn Sie ganz neu bei Amigurumi sind, können Sie folgen und großartige Produkte herstellen."
   },
   {
-    question: "Combien de modèles de chaussons et de chaussures de bébé sont inclus ?",
-    answer: "Vous recevrez au total 16 modèles complets : modèles pour adultes, enfants et mixtes. Tous sont accompagnés de diagrammes clairs et d'astuces détaillées."
+    question: "Wie viele Modelle von Hausschuhen und Babyschuhen sind enthalten?",
+    answer: "Sie erhalten insgesamt 16 vollständige Modelle: Modelle für Erwachsene, Kinder und Unisex. Alle werden mit klaren Diagrammen und detaillierten Tipps geliefert."
   },
   {
-    question: "Existe-t-il un support pour poser des questions ?",
-    answer: "Oui. Du lundi au vendredi de 09h00 à 18h00, hors jours fériés."
+    question: "Gibt es einen Support für Fragen?",
+    answer: "Ja. Montag bis Freitag von 09:00 bis 18:00 Uhr, außer an Feiertagen."
   },
   {
-    question: "Est-il sûr d'acheter sur ce site ?",
-    answer: "Oui, votre achat est 100% sécurisé. Nous utilisons le protocole https via notre processeur de paiement sécurisé."
+    question: "Ist der Kauf auf dieser Website sicher?",
+    answer: "Ja, Ihr Kauf ist zu 100 % sicher. Wir verwenden das HTTPS-Protokoll über unseren sicheren Zahlungsanbieter."
   },
   {
-    question: "L'accès est-il à vie ?",
-    answer: "Oui, le paiement est unique et l'accès à l'e-book est à vie !"
+    question: "Ist der Zugriff lebenslang?",
+    answer: "Ja, es ist eine Einmalzahlung und der Zugriff auf das E-Book ist lebenslang!"
   },
   {
-    question: "Pourquoi est-ce si peu cher ? Est-ce réel ?",
-    answer: "Oui, le prix promotionnel est fixé pour rendre le livre accessible au plus grand nombre. Mais attention : c'est une offre limitée qui peut se terminer à tout moment."
+    question: "Warum ist es so günstig? Ist das echt?",
+    answer: "Ja, der Aktionspreis wurde festgelegt, um das Buch so vielen Menschen wie möglich zugänglich zu machen. Aber Vorsicht: Dies ist ein begrenztes Angebot, das jederzeit enden kann."
   }
 ];
 
@@ -39,7 +39,7 @@ export default function FAQ() {
     <section className="py-20 px-5 bg-white">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-[32px] font-bold text-cinza-dark text-center mb-12">
-          Questions Fréquemment Posées
+          Häufig gestellte Fragen
         </h2>
 
         <div className="space-y-4">

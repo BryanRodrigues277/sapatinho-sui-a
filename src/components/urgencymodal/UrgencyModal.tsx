@@ -55,38 +55,38 @@ export default function UrgencyModal() {
         <button
           onClick={handleClose}
           className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition-colors"
-          aria-label="Fermer"
+          aria-label="Schließen"
         >
           <X className="w-8 h-8" />
         </button>
 
         <h2 className="text-[28px] font-bold text-cinza-dark mb-4 text-center">
-          Offre Exclusive pour un{' '}
-          <span className="text-azul-primary">Temps Limité !</span>
+          Exklusives Angebot für eine{' '}
+          <span className="text-azul-primary">begrenzte Zeit!</span>
         </h2>
 
         <p className="text-base text-cinza-medium mb-4 text-center leading-relaxed">
-          <strong>Seulement aujourd'hui</strong>, vous pouvez garantir ce contenu complet avec une{' '}
-          <strong>réduction spéciale</strong>.
+          <strong>Nur heute</strong> können Sie sich diesen kompletten Inhalt mit einem{' '}
+          <strong>Sonderrabatt</strong> sichern.
         </p>
 
         <p className="text-base text-cinza-dark mb-6 text-center">
-          <span className="text-2xl">⏳</span> Attention : Il reste peu de places disponibles ! Ne manquez pas cette opportunité de transformer vos créations.
+          <span className="text-2xl">⏳</span> Achtung: Es sind nur noch wenige Plätze verfügbar! Verpassen Sie nicht diese Gelegenheit, Ihre Kreationen zu verwandeln.
         </p>
 
         <button
           onClick={scrollToPrice}
           className="w-full bg-verde-cta hover:bg-verde-hover text-white px-6 py-4 rounded-lg text-lg font-bold shadow-lg transition-all duration-300"
         >
-          Garantissez Maintenant !
+          Jetzt sichern!
         </button>
 
         <div className="mt-6 pt-6 border-t border-gray-200 text-sm text-cinza-medium text-center space-y-1">
           <p>
-            📦 Recevez <strong>immédiatement</strong> par e-mail et WhatsApp après l'achat.
+            📦 Erhalten Sie <strong>sofort</strong> nach dem Kauf eine E-Mail und WhatsApp-Nachricht.
           </p>
           <p>
-            💳 Paiement <strong>unique</strong> et accès <strong>à vie</strong> garanti.
+            💳 Garantierte <strong>Einmalzahlung</strong> und <strong>lebenslanger</strong> Zugriff.
           </p>
         </div>
       </div>

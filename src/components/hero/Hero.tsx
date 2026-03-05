@@ -15,22 +15,22 @@ function Hero() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="text-white">
             <h1 className="text-[36px] md:text-[40px] leading-tight font-bold mb-4">
-              E-book Chaussons Amigurumi & Chaussures pour Bébé -{' '}
+              E-Book Amigurumi Hausschuhe & Babyschuhe -{' '}
               <span className="text-amarelo-destaque" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.3)' }}>
-                +100 modèles exclusifs
+                +100 exklusive Modelle
               </span>
             </h1>
 
             <h2 className="text-2xl md:text-2xl leading-tight font-semibold mb-6 text-white">
-              Transformez vos fils en chaussons admirables que tout le monde voudra !
+              Verwandeln Sie Ihr Garn in bewundernswerte Hausschuhe, die jeder haben möchte!
             </h2>
 
             <p className="text-lg text-white/95 mb-4 leading-relaxed">
-              +100 modèles amigurumi exclusifs avec des explications détaillées étape par étape.
+              +100 exklusive Amigurumi-Modelle mit detaillierten Schritt-für-Schritt-Anleitungen.
             </p>
 
             <p className="text-lg text-white/95 mb-8 leading-relaxed">
-              Découvrez le secret pour créer des chaussons au crochet et des chaussures de bébé qui enchantent les bébés, os enfants et les adultes !
+              Entdecken Sie das Geheimnis für das Häkeln von Hausschuhen und Babyschuhen, die Babys, Kinder und Erwachsene gleichermaßen begeistern!
             </p>
 
             <a
@@ -38,14 +38,14 @@ function Hero() {
               onClick={scrollToPrice}
               className="inline-block bg-verde-cta hover:bg-verde-hover text-white px-6 py-3 md:px-10 md:py-4 rounded-lg text-sm md:text-lg font-bold shadow-lg transition-all duration-300 hover:-translate-y-0.5 animate-pulse-shadow w-full md:w-auto text-center"
             >
-              JE VEUX MES CHAUSSONS AMIGURUMI MAINTENANT !
+              ICH WILL MEINE AMIGURUMI-HAUSSCHUHE JETZT!
             </a>
           </div>
 
           <div className="flex justify-center">
             <img
-              src="https://image2url.com/r2/default/images/1772746755702-2de62fc3-aabd-4687-83be-2bac8dfb5943.png"
-              alt="E-book Chaussons Amigurumi"
+              src="https://image2url.com/r2/default/images/1772748476343-b129ce93-6b7f-468b-a834-d3045e07eddc.png"
+              alt="E-Book Amigurumi Hausschuhe"
               className="max-w-[450px] w-full h-auto rounded-lg animate-float"
               style={{ filter: 'drop-shadow(0 10px 30px rgba(0,0,0,0.3))' }}
             />

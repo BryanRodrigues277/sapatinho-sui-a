@@ -7,7 +7,7 @@ export default function TargetAudience() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
-              À qui s'adresse ce cours ?
+              Für wen ist dieser Kurs geeignet?
             </h2>
           </div>
 
@@ -17,7 +17,7 @@ export default function TargetAudience() {
                 <Sparkles className="w-8 h-8 text-amber-700" />
               </div>
               <p className="text-gray-700 leading-relaxed">
-                Ils font déjà de l'amigurumi et veulent apprendre à créer des <strong>chaussons avec une finition parfaite</strong>.
+                Sie häkeln bereits Amigurumi und möchten lernen, <strong>Hausschuhe mit perfektem Finish</strong> zu kreieren.
               </p>
             </div>
 
@@ -26,7 +26,7 @@ export default function TargetAudience() {
                 <Users className="w-8 h-8 text-amber-700" />
               </div>
               <p className="text-gray-700 leading-relaxed">
-                <strong>Ils débutent le crochet</strong> et veulent entrer dans cette niche avec confiance et soutien.
+                <strong>Sie fangen gerade erst mit dem Häkeln an</strong> und möchten mit Vertrauen und Unterstützung in diese Nische einsteigen.
               </p>
             </div>
 
@@ -35,7 +35,7 @@ export default function TargetAudience() {
                 <DollarSign className="w-8 h-8 text-amber-700" />
               </div>
               <p className="text-gray-700 leading-relaxed">
-                <strong>Transformer l'artisanat en revenu</strong> — ils veulent rentabiliser leurs créations spéciales.
+                <strong>Handarbeit in Einkommen verwandeln</strong> — sie möchten ihre besonderen Kreationen zu Geld machen.
               </p>
             </div>
           </div>

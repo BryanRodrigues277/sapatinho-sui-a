@@ -65,7 +65,7 @@ export default function TrackingDebug() {
       <button
         onClick={() => setIsVisible(true)}
         className="fixed bottom-4 right-4 bg-green-600 hover:bg-green-700 text-white p-3 rounded-full shadow-lg z-50 transition-all"
-        title="Mostrar debug de rastreamento"
+        title="Tracking-Debug anzeigen"
       >
         <Eye className="w-5 h-5" />
       </button>
@@ -77,7 +77,7 @@ export default function TrackingDebug() {
       <div className="flex items-center justify-between mb-3">
         <h3 className="text-sm font-bold text-gray-900 flex items-center gap-2">
           <span className="inline-block w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-          Rastreamento de Cliques
+          Klick-Tracking
         </h3>
         <button
           onClick={() => setIsVisible(false)}
@@ -90,19 +90,18 @@ export default function TrackingDebug() {
       <div className="space-y-2 max-h-96 overflow-y-auto">
         {events.length === 0 ? (
           <p className="text-xs text-gray-500 text-center py-4">
-            Nenhum clique registrado ainda
+            Noch kein Klick registriert
           </p>
         ) : (
           events.map(event => (
             <div
               key={event.id}
-              className={`p-2 rounded text-xs border ${
-                event.status === 'success'
+              className={`p-2 rounded text-xs border ${event.status === 'success'
                   ? 'bg-green-50 border-green-200'
                   : event.status === 'error'
-                  ? 'bg-red-50 border-red-200'
-                  : 'bg-yellow-50 border-yellow-200'
-              }`}
+                    ? 'bg-red-50 border-red-200'
+                    : 'bg-yellow-50 border-yellow-200'
+                }`}
             >
               <div className="flex items-center justify-between mb-1">
                 <span className="font-semibold">
@@ -114,26 +113,25 @@ export default function TrackingDebug() {
               </div>
               <div className="text-gray-700">
                 <div className="truncate">
-                  <strong>Destino:</strong> {event.destination}
+                  <strong>Ziel:</strong> {event.destination}
                 </div>
                 <div>
-                  <strong>Local:</strong> {event.location}
+                  <strong>Ort:</strong> {event.location}
                 </div>
                 <div className="mt-1">
                   <span
-                    className={`inline-block px-2 py-0.5 rounded text-xs font-semibold ${
-                      event.status === 'success'
+                    className={`inline-block px-2 py-0.5 rounded text-xs font-semibold ${event.status === 'success'
                         ? 'bg-green-200 text-green-800'
                         : event.status === 'error'
-                        ? 'bg-red-200 text-red-800'
-                        : 'bg-yellow-200 text-yellow-800'
-                    }`}
+                          ? 'bg-red-200 text-red-800'
+                          : 'bg-yellow-200 text-yellow-800'
+                      }`}
                   >
                     {event.status === 'success'
-                      ? '✅ Registrado'
+                      ? '✅ Registriert'
                       : event.status === 'error'
-                      ? '❌ Erro'
-                      : '⏳ Processando'}
+                        ? '❌ Fehler'
+                        : '⏳ In Verarbeitung'}
                   </span>
                 </div>
               </div>

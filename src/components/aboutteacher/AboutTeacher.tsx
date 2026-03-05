@@ -5,7 +5,7 @@ export default function AboutTeacher() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">
-            Faites connaissance avec votre professeur !
+            Lernen Sie Ihre Lehrerin kennen!
           </h2>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -13,7 +13,7 @@ export default function AboutTeacher() {
               <div className="relative w-full max-w-md mx-auto">
                 <img
                   src="https://i.postimg.cc/VkJKQK4f/Tapetes-Arts-1024x1024.webp"
-                  alt="Heloísa Santos - Professeure"
+                  alt="Heloísa Santos - Lehrerin"
                   loading="lazy"
                   className="w-full rounded-xl shadow-2xl"
                 />
@@ -22,7 +22,7 @@ export default function AboutTeacher() {
 
             <div>
               <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Salut ! Je m'appelle <strong>Heloísa Santos</strong> et je suis passionnée par l'amigurumi depuis plus de 5 ans. J'ai créé cet e-book de chaussons pour vous montrer qu'avec les bonnes techniques, <strong>vous pouvez vous aussi créer de magnifiques chaussons et chaussures qui enchantent tout le monde</strong>.
+                Hallo! Mein Name ist <strong>Heloísa Santos</strong> und ich bin seit über 5 Jahren leidenschaftliche Amigurumi-Künstlerin. Ich habe dieses E-Book über Hausschuhe erstellt, um Ihnen zu zeigen, dass auch Sie mit den richtigen Techniken <strong>wunderschöne Hausschuhe und Babyschuhe kreieren können, die jeden verzaubern</strong>.
               </p>
             </div>
           </div>

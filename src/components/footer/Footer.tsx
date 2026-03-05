@@ -4,27 +4,27 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="text-lg font-bold mb-4">
-            E-book Numérique de Chaussons & Chaussures Bébé Amigurumi
+            Digitales E-Book für Amigurumi-Hausschuhe & Babyschuhe
           </h3>
 
           <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-6 text-sm">
             <p className="flex items-center gap-2">
-              ✓ Paiement 100% Sécurisé
+              ✓ 100 % sichere Zahlung
             </p>
             <p className="flex items-center gap-2">
-              ✓ Données Protégées
+              ✓ Daten geschützt
             </p>
             <p className="flex items-center gap-2">
-              ✓ Garantie de 7 Jours
+              ✓ 7 Tage Garantie
             </p>
           </div>
 
           <p className="text-sm opacity-80 mb-2">
-            © 2025 Chaussons & Chaussures Bébé Amigurumi. Tous droits réservés.
+            © 2025 Amigurumi-Hausschuhe & Babyschuhe. Alle Rechte vorbehalten.
           </p>
 
           <p className="text-xs opacity-70">
-            Ce produit est vendu avec garantie via une plateforme de paiement sécurisée.
+            Dieses Produkt wird mit Garantie über eine sichere Zahlungsplattform verkauft.
           </p>
         </div>
       </div>

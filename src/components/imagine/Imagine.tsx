@@ -6,51 +6,51 @@ export default function Imagine() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 text-[#333333]">
-            Toucher doux, couleurs chaleureuses, modèles qui enchantent.
+            Weiche Haptik, warme Farben, Modelle, die verzaubern.
           </h2>
 
           <p className="text-lg text-[#666666] mb-4 leading-relaxed max-w-3xl mx-auto">
-            Imaginez un chausson ourson mignon pour la chambre de votre bébé ou un lion courageux qui enchante chaque enfant. Chaque modèle est une œuvre d'art fonctionnelle qui ajoute du style et de la chaleur à n'importe quel environnement !
+            Stellen Sie sich einen niedlichen Bären-Hausschuh für das Zimmer Ihres Babys oder einen mutigen Löwen vor, der jedes Kind verzaubert. Jedes Modell ist ein funktionales Kunstwerk, das jedem Raum Stil und Wärme verleiht!
           </p>
 
           <p className="text-lg text-[#666666] mb-8 leading-relaxed max-w-3xl mx-auto">
-            C'est ce que vous apprendrez avec <strong className="text-[#2E7D32]">l'E-book Chaussons Amigurumi</strong> !
+            Das ist das, was Sie mit dem <strong className="text-[#2E7D32]">Amigurumi-Hausschuhe E-Book</strong> lernen werden!
           </p>
 
           <div className="mb-8">
             <img
-              src="https://image2url.com/r2/default/images/1772746755702-2de62fc3-aabd-4687-83be-2bac8dfb5943.png"
-              alt="Chausson Amigurumi"
+              src="https://image2url.com/r2/default/images/1772748476343-b129ce93-6b7f-468b-a834-d3045e07eddc.png"
+              alt="Amigurumi-Hausschuh"
               loading="lazy"
               className="w-full max-w-md mx-auto rounded-xl shadow-lg"
             />
           </div>
 
           <h3 className="text-2xl md:text-3xl font-bold mb-6 text-[#333333]">
-            Avec des modèles exclusifs, vous pourrez fabriquer ces magnifiques chaussons :
+            Mit exklusiven Modellen können Sie diese wunderschönen Hausschuhe herstellen:
           </h3>
 
           <div className="max-w-2xl mx-auto">
             <ul className="space-y-3 text-left">
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-[#2E7D32] flex-shrink-0 mt-0.5" strokeWidth={3} />
-                <span className="text-lg text-[#666666]">Chausson ourson mignon parfait pour les chambres de bébé</span>
+                <span className="text-lg text-[#666666]">Niedlicher Bären-Hausschuh, perfekt für Babyzimmer</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-[#2E7D32] flex-shrink-0 mt-0.5" strokeWidth={3} />
-                <span className="text-lg text-[#666666]">Lion majestueux qui enchante les enfants</span>
+                <span className="text-lg text-[#666666]">Majestätischer Löwe, der Kinder verzaubert</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-[#2E7D32] flex-shrink-0 mt-0.5" strokeWidth={3} />
-                <span className="text-lg text-[#666666]">Chat élégant pour la décoration</span>
+                <span className="text-lg text-[#666666]">Elegante Katze zur Dekoration</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-[#2E7D32] flex-shrink-0 mt-0.5" strokeWidth={3} />
-                <span className="text-lg text-[#666666]">Chien affectueux que tout le monde adore</span>
+                <span className="text-lg text-[#666666]">Liebevoller Hund, den jeder liebt</span>
               </li>
               <li className="flex items-start gap-3">
                 <Check className="w-6 h-6 text-[#2E7D32] flex-shrink-0 mt-0.5" strokeWidth={3} />
-                <span className="text-lg text-[#666666]">Et bien d'autres modèles d'animaux (des surprises vous attendent !)</span>
+                <span className="text-lg text-[#666666]">Und viele weitere Tiermodelle (Überraschungen erwarten Sie!)</span>
               </li>
             </ul>
           </div>
