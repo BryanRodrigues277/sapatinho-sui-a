@@ -4,27 +4,27 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h3 className="text-lg font-bold mb-4">
-            Amigurumi Patik & Bebek Ayakkabısı Dijital E-Kitabı
+            E-book Numérique de Chaussons & Chaussures Bébé Amigurumi
           </h3>
 
           <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-6 text-sm">
             <p className="flex items-center gap-2">
-              ✓ %100 Güvenli Ödeme
+              ✓ Paiement 100% Sécurisé
             </p>
             <p className="flex items-center gap-2">
-              ✓ Veriler Korunuyor
+              ✓ Données Protégées
             </p>
             <p className="flex items-center gap-2">
-              ✓ 7 Günlük Garanti
+              ✓ Garantie de 7 Jours
             </p>
           </div>
 
           <p className="text-sm opacity-80 mb-2">
-            © 2025 Amigurumi Patik & Bebek Ayakkabısı. Tüm hakları saklıdır.
+            © 2025 Chaussons & Chaussures Bébé Amigurumi. Tous droits réservés.
           </p>
 
           <p className="text-xs opacity-70">
-            Bu ürün, güvenli ödeme platformu aracılığıyla garantili olarak satılmaktadır.
+            Ce produit est vendu avec garantie via une plateforme de paiement sécurisée.
           </p>
         </div>
       </div>

@@ -3,33 +3,33 @@ import { memo } from 'react';
 const benefits = [
   {
     emoji: '📚',
-    title: "100'den Fazla Özel Model",
-    description: 'Patik ve bebek ayakkabısı temalı amigurumilerin detaylı anlatımlı eksiksiz koleksiyonu'
+    title: "Plus de 100 Modèles Exclusifs",
+    description: 'Collection complète de modèles amigurumi sur le thème des chaussons et chaussures de bébé avec des explications détaillées.'
   },
   {
     emoji: '⚡',
-    title: 'Anında ve Ömür Boyu Erişim',
-    description: 'Her şeyi saniyeler içinde e-postanıza alın ve aylık ücret ödemeden sonsuza dek erişin'
+    title: 'Accès Immédiat et à Vie',
+    description: 'Recevez tout par e-mail en quelques secondes et accédez-y pour toujours sans frais mensuels.'
   },
   {
     emoji: '📖',
-    title: 'Resimli Adım Adım Anlatım',
-    description: 'Her model fotoğraf ve açık açıklamalarla gelir, hem yeni başlayanlar hem de ileri seviye için mükemmel'
+    title: 'Pas à Pas Illustré',
+    description: 'Chaque modèle est accompagné de photos et d\'explications claires, idéales tant pour les débutants que pour les confirmés.'
   },
   {
     emoji: '💰',
-    title: 'Ek Gelir Elde Edin',
-    description: 'Bitirdiğiniz ürünleri satın veya özel siparişler kabul edin ve yeteneğinizden kazanç sağlayın'
+    title: 'Générez un Revenu Supplémentaire',
+    description: 'Vendez vos produits finis ou acceptez des commandes personnalisées e rentabilisez votre talent.'
   },
   {
     emoji: '📈',
-    title: 'Yükselen Trend',
-    description: 'Amigurumi patikler ve bebek ayakkabıları sosyal medyada büyük başarı yakalıyor ve çevrimiçi çok satıyor'
+    title: 'Tendance en Hausse',
+    description: 'Les chaussons et chaussures amigurumi connaissent un grand succès sur les réseaux sociaux et se vendent très bien en ligne.'
   },
   {
     emoji: '🤝',
-    title: 'Destek ve Topluluk',
-    description: 'El sanatları ustaları için özel gruba katılın ve her ihtiyacınızda ipuçları, ilham ve yardım alın'
+    title: 'Support et Communauté',
+    description: 'Rejoignez le groupe exclusif d\'artisans et recevez des conseils, de l\'inspiration et de l\'aide dès que vous en avez besoin.'
   }
 ];
 
@@ -38,11 +38,11 @@ function Benefits() {
     <section className="py-20 px-5 bg-white">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-[32px] font-bold text-cinza-dark text-center mb-6">
-          Neden "Amigurumi Patik & Bebek Ayakkabısı E-Kitabı" ihtiyacınız olan tek şey?
+          Pourquoi l'e-book "Chaussons & Chaussures Bébé Amigurumi" est-il tout ce dont vous avez besoin ?
         </h2>
 
         <p className="text-lg text-cinza-medium text-center mb-12 max-w-3xl mx-auto">
-          Amigurumi sanatında ustalaşmak ve hobinizi işe dönüştürmek için ihtiyacınız olan her şey
+          Tout ce dont vous avez besoin pour maîtriser l'art de l'amigurumi et transformer votre hobby en entreprise.
         </p>
 
         <div className="grid md:grid-cols-3 gap-8">

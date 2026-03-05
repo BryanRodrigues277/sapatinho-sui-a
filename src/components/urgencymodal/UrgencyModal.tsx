@@ -55,38 +55,38 @@ export default function UrgencyModal() {
         <button
           onClick={handleClose}
           className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition-colors"
-          aria-label="Fechar"
+          aria-label="Fermer"
         >
           <X className="w-8 h-8" />
         </button>
 
         <h2 className="text-[28px] font-bold text-cinza-dark mb-4 text-center">
-          Oferta Exclusiva por{' '}
-          <span className="text-azul-primary">Tempo Limitado!</span>
+          Offre Exclusive pour un{' '}
+          <span className="text-azul-primary">Temps Limité !</span>
         </h2>
 
         <p className="text-base text-cinza-medium mb-4 text-center leading-relaxed">
-          <strong>Apenas hoje</strong>, você pode garantir este conteúdo completo com um{' '}
-          <strong>desconto especial</strong>.
+          <strong>Seulement aujourd'hui</strong>, vous pouvez garantir ce contenu complet avec une{' '}
+          <strong>réduction spéciale</strong>.
         </p>
 
         <p className="text-base text-cinza-dark mb-6 text-center">
-          <span className="text-2xl">⏳</span> Atenção: Restam poucas vagas disponíveis! Não perca essa oportunidade de transformar suas criações.
+          <span className="text-2xl">⏳</span> Attention : Il reste peu de places disponibles ! Ne manquez pas cette opportunité de transformer vos créations.
         </p>
 
         <button
           onClick={scrollToPrice}
           className="w-full bg-verde-cta hover:bg-verde-hover text-white px-6 py-4 rounded-lg text-lg font-bold shadow-lg transition-all duration-300"
         >
-          Garanta Agora!
+          Garantissez Maintenant !
         </button>
 
         <div className="mt-6 pt-6 border-t border-gray-200 text-sm text-cinza-medium text-center space-y-1">
           <p>
-            📦 Receba <strong>imediatamente</strong> no seu e-mail e WhatsApp após a compra.
+            📦 Recevez <strong>immédiatement</strong> par e-mail et WhatsApp après l'achat.
           </p>
           <p>
-            💳 Pagamento <strong>único</strong> e acesso <strong>vitalício</strong> garantido.
+            💳 Paiement <strong>unique</strong> et accès <strong>à vie</strong> garanti.
           </p>
         </div>
       </div>

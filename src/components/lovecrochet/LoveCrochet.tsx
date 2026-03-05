@@ -5,15 +5,15 @@ function LoveCrochet() {
     <section className="py-20 px-5 bg-bege-light">
       <div className="container mx-auto max-w-4xl text-center">
         <h2 className="text-[32px] md:text-[32px] font-bold text-cinza-dark mb-8">
-          Bunu hayal edin...
+          Imaginez ceci...
         </h2>
 
         <p className="text-lg text-cinza-medium mb-6 leading-relaxed">
-          Kendi yaptığınız ilk patiklerini giyen bir bebek. Sevimli tek boynuzlu at pantofilerini çıkarmayı reddeden bir çocuk. El sanatlarınızın konforu ile ısınan bir ev.
+          Un bébé portant ses premiers chaussons faits par vous. Un enfant qui refuse d'enlever ses adorables pantoufles licorne. Une maison réchauffée par le confort de votre artisanat.
         </p>
 
         <p className="text-lg text-cinza-medium mb-6 leading-relaxed">
-          <strong>Hepsi kendi ellerinizle yapılmış.</strong>
+          <strong>Tout cela fait de vos propres mains.</strong>
         </p>
 
         <div className="flex justify-center mb-8">
@@ -25,7 +25,7 @@ function LoveCrochet() {
         </div>
 
         <p className="text-lg text-cinza-medium leading-relaxed">
-          Sade. Sıcak. <strong>Unutulmaz!</strong>
+          Simple. Chaleureux. <strong>Inoubliable !</strong>
         </p>
       </div>
     </section>

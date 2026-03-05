@@ -88,9 +88,8 @@ export default function PurchaseNotification() {
 
   return (
     <div
-      className={`fixed bottom-6 left-6 z-50 transition-all duration-500 transform ${
-        isVisible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'
-      }`}
+      className={`fixed bottom-6 left-6 z-50 transition-all duration-500 transform ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0'
+        }`}
     >
       <div className="bg-white rounded-lg shadow-2xl p-4 flex items-center gap-3 border border-gray-200 max-w-xs">
         <div className="flex-shrink-0 w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
@@ -100,7 +99,7 @@ export default function PurchaseNotification() {
           <p className="text-sm font-semibold text-gray-900 truncate">
             {names[currentIndex]}
           </p>
-          <p className="text-xs text-gray-600">acabou de comprar</p>
+          <p className="text-xs text-gray-600">vient d'acheter</p>
         </div>
       </div>
     </div>

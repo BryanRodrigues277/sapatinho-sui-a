@@ -3,28 +3,28 @@ import { Plus } from 'lucide-react';
 
 const faqs = [
   {
-    question: 'E-kitap tığ işine yeni başlayanlar için uygun mu?',
-    answer: 'Kesinlikle! E-kitap; adım adım açıklamalar, açık şemalar ve pek çok ipucuyla kolay anlaşılır şekilde hazırlandı. Amigurumiye sıfırdan başlıyor olsunuz bile takıp edebilir ve harika ürünler yapabilirsiniz.'
+    question: "L'e-book convient-il aux débutants en crochet ?",
+    answer: "Absolument ! L'e-book a été conçu pour être facile à comprendre, avec des explications étape par étape, des diagrammes clairs et de nombreuses astuces. Même si vous debutez l'amigurumi de zéro, vous pouvez suivre et créer de superbes produits."
   },
   {
-    question: 'Kaç patik ve bebek ayakkabısı modeli dahil edilmiştir?',
-    answer: 'Toplam 16 eksiksiz tarif alacaksınız: yetişkin, çocuk ve uniseks modeller. Tüm bunlar açık şemalar ve detaylı ipucuçlarıyla birlikte gelir.'
+    question: "Combien de modèles de chaussons et de chaussures de bébé sont inclus ?",
+    answer: "Vous recevrez au total 16 modèles complets : modèles pour adultes, enfants et mixtes. Tous sont accompagnés de diagrammes clairs et d'astuces détaillées."
   },
   {
-    question: 'Soru sormak için herhangi bir destek var mı?',
-    answer: 'Evet. Pazartesi-Cuma 09:00-18:00 saatleri arasında, resmi tatiller hariç.'
+    question: "Existe-t-il un support pour poser des questions ?",
+    answer: "Oui. Du lundi au vendredi de 09h00 à 18h00, hors jours fériés."
   },
   {
-    question: 'Bu siteden alışveriş yapmak güvenli mi?',
-    answer: 'Evet, alışverişiniz %100 güvende olacaktır. Güvenli ödeme işemcimiz aracılığıyla https protokolü kullanıyoruz.'
+    question: "Est-il sûr d'acheter sur ce site ?",
+    answer: "Oui, votre achat est 100% sécurisé. Nous utilisons le protocole https via notre processeur de paiement sécurisé."
   },
   {
-    question: 'Erişim ömrüm boyunca devam eder mi?',
-    answer: 'Evet, ödeme tek seferlik yapılır ve e-kitaba erişim ömrümüz boyu devam eder!'
+    question: "L'accès est-il à vie ?",
+    answer: "Oui, le paiement est unique et l'accès à l'e-book est à vie !"
   },
   {
-    question: 'Neden bu kadar ucuz? Bu gerçek mi?',
-    answer: 'Evet, promosyon fiyatı kitabı mümkün olduğunca fazla kişiye ulaştırmak için belirlenmiştir. Ancak dikkat: bu sınırlı bir tekliftir ve her an sona erebilir.'
+    question: "Pourquoi est-ce si peu cher ? Est-ce réel ?",
+    answer: "Oui, le prix promotionnel est fixé pour rendre le livre accessible au plus grand nombre. Mais attention : c'est une offre limitée qui peut se terminer à tout moment."
   }
 ];
 
@@ -39,7 +39,7 @@ export default function FAQ() {
     <section className="py-20 px-5 bg-white">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-[32px] font-bold text-cinza-dark text-center mb-12">
-          Sıkça Sorulan Sorular
+          Questions Fréquemment Posées
         </h2>
 
         <div className="space-y-4">

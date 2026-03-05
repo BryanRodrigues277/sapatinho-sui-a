@@ -7,7 +7,7 @@ export default function TargetAudience() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">
-              Bu kurs kime yönelik?
+              À qui s'adresse ce cours ?
             </h2>
           </div>
 
@@ -17,7 +17,7 @@ export default function TargetAudience() {
                 <Sparkles className="w-8 h-8 text-amber-700" />
               </div>
               <p className="text-gray-700 leading-relaxed">
-                Zaten amigurumi yapıyorlar ve <strong>mükemmel bitişiyle patikler</strong> yaratmayı öğrenmek istiyorlar.
+                Ils font déjà de l'amigurumi et veulent apprendre à créer des <strong>chaussons avec une finition parfaite</strong>.
               </p>
             </div>
 
@@ -26,7 +26,7 @@ export default function TargetAudience() {
                 <Users className="w-8 h-8 text-amber-700" />
               </div>
               <p className="text-gray-700 leading-relaxed">
-                <strong>Tığ işine yeni başlıyorlar</strong> ve güvenle ve destekle bu nişe girmek istiyorlar.
+                <strong>Ils débutent le crochet</strong> et veulent entrer dans cette niche avec confiance et soutien.
               </p>
             </div>
 
@@ -35,7 +35,7 @@ export default function TargetAudience() {
                 <DollarSign className="w-8 h-8 text-amber-700" />
               </div>
               <p className="text-gray-700 leading-relaxed">
-                <strong>El san'atını gelire dönüştürmek</strong> istiyorlar — nárın özel eserlerden kazanç sağlamak istiyorlar.
+                <strong>Transformer l'artisanat en revenu</strong> — ils veulent rentabiliser leurs créations spéciales.
               </p>
             </div>
           </div>
